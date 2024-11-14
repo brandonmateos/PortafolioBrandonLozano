@@ -26,7 +26,7 @@ const Hero = () => {
             Contáctame
           </a>
           <a
-            href="https://github.com/brandonmateos/PortafolioBrandonLozano/blob/main/cv.pdf"
+            href="./cv.pdf"
             className="bg-gray-800 hover:bg-gray-700 text-white px-8 py-3 rounded-full transition-colors"
             download
           >
