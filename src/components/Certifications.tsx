@@ -7,7 +7,7 @@ const Certifications = () => {
       title: 'Microsoft Azure Fundamentals (AZ-900)',
       organization: 'Microsoft',
       date: '2023',
-      image: '/img/micosoft-azure.webp',
+      image: 'https://raw.githubusercontent.com/brandonmateos/PortafolioBrandonLozano/refs/heads/main/img/micosoft-azure.webp',
       badge: '🏆'
     },
     {

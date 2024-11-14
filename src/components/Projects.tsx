@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: 'Sitio Web - La Casa Del Detector',
       description: 'Desarrollo de un sitio web económico para la ferretería La Casa Del Detector, con catálogo de herramientas, carrusel de promociones y búsqueda avanzada.',
-      image: '/img/project1.png',
+      image: 'https://raw.githubusercontent.com/brandonmateos/PortafolioBrandonLozano/refs/heads/main/img/project1.png',
       tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript', 'PostgreSQL', 'Vercel', 'GitHub'],
       github: 'https://github.com/brandonmateos/LaCasaDelDetectorWebSite?tab=readme-ov-file', // Reemplaza con el enlace real del repositorio si lo tienes
       live: 'https://la-casa-del-detector-web-site.vercel.app/' // Reemplaza con el enlace real de la página en vivo
@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: 'Practice - “Marca” page clone',
       description: 'Actividad de práctica de HTML y CSS, clonando la página de inicio de “Marca”.',
-      image: '/img/projecto2.png',
+      image: 'https://github.com/brandonmateos/PortafolioBrandonLozano/blob/main/img/projecto2.png',
       tech: ['Vue.js', 'Express', 'PostgreSQL', 'Docker'],
       github: 'https://github.com/brandonmateos/PracticaB4-marca.com',
       live: 'https://brandonmateos.github.io/PracticaB4-marca.com/'
