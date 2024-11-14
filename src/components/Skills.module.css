@@ -1,0 +1,82 @@
+.skillItem {
+    position: relative;
+    padding: 0.75rem;
+    transition: transform 0.3s ease;
+  }
+  
+  @media (min-width: 640px) {
+    .skillItem {
+      padding: 1rem;
+    }
+  }
+  
+  .skillItem:hover {
+    transform: translateY(-5px);
+  }
+  
+  .iconWrapper {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgba(168, 85, 247, 0.1), rgba(236, 72, 153, 0.1));
+    transition: all 0.3s ease;
+  }
+  
+  @media (min-width: 640px) {
+    .iconWrapper {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+  .skillItem:hover .iconWrapper {
+    background: linear-gradient(45deg, rgba(168, 85, 247, 0.2), rgba(236, 72, 153, 0.2));
+    transform: scale(1.1);
+  }
+  
+  .skillItem:hover .iconWrapper::after {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgb(168, 85, 247), rgb(236, 72, 153));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    padding: 2px;
+    animation: spin 4s linear infinite;
+  }
+  
+  .icon {
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
+  }
+  
+  .skillItem:hover .icon {
+    transform: scale(1.2);
+    animation: bounce 0.6s ease infinite alternate;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes bounce {
+    from {
+      transform: translateY(0) scale(1.2);
+    }
+    to {
+      transform: translateY(-5px) scale(1.2);
+    }
+  }
