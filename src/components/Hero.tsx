@@ -26,7 +26,7 @@ const Hero = () => {
             Contáctame
           </a>
           <a
-            href="/cv.pdf"
+            href="/cv_BrandonAliLozanoMateos.pdf"
             className="bg-gray-800 hover:bg-gray-700 text-white px-8 py-3 rounded-full transition-colors"
             download
           >

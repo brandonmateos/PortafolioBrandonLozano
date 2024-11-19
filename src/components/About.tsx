@@ -23,25 +23,19 @@ const About = () => {
           
           <div className="space-y-6">
             <p className="text-gray-300 text-lg leading-relaxed">
-              Soy un desarrollador apasionado por crear soluciones tecnológicas innovadoras. 
-              Con experiencia en desarrollo web full stack, me especializo en crear aplicaciones 
-              web modernas y eficientes.
+              Soy un estudiante apasionado de Ingeniería de Software, próximo a egresar. A lo largo de mi formación, he desarrollado un interés especial tanto por la creación de soluciones tecnológicas útiles como por el apasionante campo de la ciberseguridad.
             </p>
             
             <p className="text-gray-300 text-lg leading-relaxed">
-              Mi objetivo es combinar diseño y funcionalidad para crear experiencias digitales 
-              excepcionales que resuelvan problemas reales.
+              He trabajado en proyectos académicos y personales que me han permitido fortalecer mis habilidades en desarrollo web y programación, además de iniciar mi exploración en áreas como el pentesting y la seguridad informática. Mi objetivo es continuar aprendiendo y combinando mis conocimientos en desarrollo de software y ciberseguridad para construir aplicaciones innovadoras y seguras que generen un impacto positivo.
             </p>
             
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div className="bg-gray-900 p-4 rounded-lg">
                 <h3 className="font-semibold text-purple-500">Experiencia</h3>
-                <p className="text-gray-300">+3 años</p>
+                <p className="text-gray-300">+1 años</p>
               </div>
-              <div className="bg-gray-900 p-4 rounded-lg">
-                <h3 className="font-semibold text-purple-500">Proyectos</h3>
-                <p className="text-gray-300">+20 completados</p>
-              </div>
+             
             </div>
           </div>
         </div>

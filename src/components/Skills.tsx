@@ -10,7 +10,6 @@ const Skills = () => {
         { name: 'HTML5', icon: '🌐' },
         { name: 'React', icon: '⚛️' },
         { name: 'TypeScript', icon: '📘' },
-        { name: 'Next.js', icon: '▲' },
         { name: 'Tailwind CSS', icon: '🎨' }
            
       ]
@@ -22,7 +21,6 @@ const Skills = () => {
         { name: 'Python', icon: '🐍' },
         { name: 'PostgreSQL', icon: '🐘' },
         { name: 'MongoDB', icon: '🍃' },
-        { name: 'Express.js', icon: '⚡' },
         { name: 'REST APIs', icon: '🔌' }
       ]
     },
