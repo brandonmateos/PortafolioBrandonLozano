@@ -17,15 +17,15 @@ const Contact = () => {
 
     try {
       await emailjs.send(
-        'service_eu5j5hl', // Replace with your EmailJS service ID
-        'template_oi3jvmu', // Replace with your EmailJS template ID
+        'service_eu5j5hl',
+        'template_oi3jvmu',
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
           to_name: 'Brandon',
         },
-        'vlSgacYwoGysLqjX_' // Replace with your EmailJS public key
+        'vlSgacYwoGysLqjX_'
       );
 
       toast.success('¡Mensaje enviado con éxito!');
