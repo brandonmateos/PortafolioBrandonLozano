@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: 'WebSite - HoB - Tu Propio Estilo',
       description: 'Sitio web para HoB con catálogo interactivo, detalles del proceso de trabajo y opciones de contacto. Diseño intuitivo y atractivo que refleja la identidad de la marca.',
-      image: 'https://raw.githubusercontent.com/brandonmateos/PortafolioBrandonLozano/refs/heads/main/img/projecto3.png',
+      image: 'https://raw.githubusercontent.com/brandonmateos/PortafolioBrandonLozano/refs/heads/main/img/project3.png',
       tech: ['HTML', 'CSS', 'TypeScript', 'Netlify', 'Vite', 'GitHub', 'Node'],
       github: 'https://github.com/brandonmateos/PracticaB4-marca.com',
       live: 'https://brandonmateos.github.io/PracticaB4-marca.com/'
