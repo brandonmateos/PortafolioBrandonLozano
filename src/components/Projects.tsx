@@ -4,7 +4,7 @@ import { Github, ExternalLink } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'Sitio Web - La Casa Del Detector',
+      title: 'WebSite - La Casa Del Detector',
       description: 'Desarrollo de un sitio web económico para la ferretería La Casa Del Detector, con catálogo de herramientas, carrusel de promociones y búsqueda avanzada.',
       image: 'https://raw.githubusercontent.com/brandonmateos/PortafolioBrandonLozano/refs/heads/main/img/project1.png',
       tech: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript', 'PostgreSQL', 'Vercel', 'GitHub'],
@@ -12,7 +12,15 @@ const Projects = () => {
       live: 'https://la-casa-del-detector-web-site.vercel.app/'
     },
     {
-      title: 'Practice - “Marca” page clone',
+      title: 'WebSite - HoB - Tu Propio Estilo',
+      description: 'Sitio web para HoB con catálogo interactivo, detalles del proceso de trabajo y opciones de contacto. Diseño intuitivo y atractivo que refleja la identidad de la marca.',
+      image: 'https://raw.githubusercontent.com/brandonmateos/PortafolioBrandonLozano/refs/heads/main/img/projecto3.png',
+      tech: ['HTML', 'CSS', 'TypeScript', 'Netlify', 'Vite', 'GitHub', 'Node'],
+      github: 'https://github.com/brandonmateos/PracticaB4-marca.com',
+      live: 'https://brandonmateos.github.io/PracticaB4-marca.com/'
+    },
+    {
+      title: 'Practica - clon de pagina “Marca”',
       description: 'Actividad de práctica de HTML y CSS, clonando la página de inicio de “Marca”.',
       image: 'https://raw.githubusercontent.com/brandonmateos/PortafolioBrandonLozano/refs/heads/main/img/projecto2.png',
       tech: ['HTML', 'CSS', 'Bootstrap 5', 'GitHub Pages'],
